@@ -1,11 +1,12 @@
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+/*@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";*/
 
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+* {font-family: 'Noto Sans KR', sans-serif;}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -99,11 +100,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		/*background-color: #935d8c;*/
+		background-color: #189310;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #21fe76 15%, #129325 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #21fe76 15%, #129325 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #21fe76 15%, #129325 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #21fe76 15%, #129325 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2777,7 +2779,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-block;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
